@@ -1,3 +1,2 @@
 FROM alpine:latest
-RUN apk update
-RUN apk install ssh
+RUN RUN apk add --update openssh
